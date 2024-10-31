@@ -1,7 +1,22 @@
-# README.md
+# GitHub Beijing Developer Analysis
 
-- Using the GitHub API, I gathered data on users in Beijing with over 500 followers, retrieving each user’s profile information and up to 500 recent public repositories. This involved processing data fields such as user names, bios, and repository details like languages used, star counts, and license information into organized CSV files.
+* Data was scraped using GitHub's REST API v3, focusing on Beijing-based developers with over 500 followers, implementing rate limiting and pagination to ensure complete data collection.
 
-- A surprising discovery from the data analysis was that a large portion of high-follower users in Beijing primarily work with JavaScript, suggesting that this language is a prominent focus within the local developer community, likely driven by web development and frontend projects where JavaScript has broad applicability and popularity.
+* The most surprising finding was that among 360 qualifying Beijing developers, their repositories have accumulated 2,724,870 total stars, suggesting an outsized influence on the global developer community.
 
-- Based on the analysis, developers in Beijing who aim to expand their networks and professional visibility should prioritize contributing to popular JavaScript open-source projects, as collaboration on widely-used repositories can foster connections and enhance recognition in the tech community.
+* Based on the analysis, developers should consider that JavaScript is the most commonly used language among influential Beijing developers, indicating potential career opportunities in this technology stack.
+
+## Analysis Details
+
+- Total users analyzed: 360
+- Total repositories: 32,323
+- Total stars accumulated: 2,724,870
+
+### Top Programming Languages
+```
+JavaScript: 4,797 repositories
+Python: 3,402 repositories
+Java: 2,506 repositories
+Go: 1,454 repositories
+C++: 1,275 repositories
+```
